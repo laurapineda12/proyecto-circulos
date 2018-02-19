@@ -270,19 +270,125 @@ address>nav{
   margin: auto;
   width: 580px;
   height: 760px;
-  background-color: purple;
+  background-color: yellow;
   display: block;
 }
 .luz>article{
-  margin: 20px;
+  margin: 15px 0px 20px 15px;
   width: 80px;
   height: 160px;
   background-color: black;
 }
-.luz>article>.luz1{
-  margin: 20px;
-  width: 40px;
+.luz article:nth-child(6){
+  margin: 15px;
+  width: 50px;
   height: 160px;
   background-color: black;
+  float: right;
+}
+.luz>article:nth-child(1)>div{
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  float: left;
+}
+.luz>article:nth-child(2)>div{
+  margin: 32px 10px;
+  width: 60px;
+  height: 90px;
+  background-color: white;
+  float: left;
+}
+.luz>article:nth-child(3)>div{
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  float: left;
+}
+.luz>article:nth-child(4)>div{
+  margin: 32px 10px;
+  width: 60px;
+  height: 90px;
+  background-color: white;
+  float: left;
+}
+.luz>article:nth-child(5)>div{
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  float: left;
+}
+.luz>article:nth-child(7){
+  margin: 0px 20px 0px 20px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: black;
+}
+.luz>article:nth-child(8){
+  margin: 0px 20px 0px 0px;
+  width: 320px;
+  height: 200px;
+  background-color: black;
+  float: left;
 
 }
+.luz>article:nth-child(7)>nav:nth-child(1){
+  margin: 20px 20px 0px 20px;
+  width: 160px;
+  height: 40px;
+  background-color: white;
+}
+.luz>article:nth-child(7)>nav:nth-child(2), .luz>article:nth-child(7)>nav:nth-child(3){
+  margin: 20px 0px 20px 20px;
+  width: 70px;
+  height: 100px;
+  background-color: white;
+  float: left;
+
+}
+.luz>article:nth-child(7)>nav:nth-child(1)>div{
+  margin: 0px 10px;
+  width: 130px;
+  height: 40px;
+  background-color: blue;
+}.luz>article:nth-child(7)>nav:nth-child(2)>div{
+  margin: 10px;
+  width: 50px;
+  height: 80px;
+  background-color: blue;
+}
+.luz>article:nth-child(7)>nav:nth-child(3)>div{
+  margin: 10px 10px 0px 10px;
+  width: 50px;
+  height: 30px;
+  background-color: blue;
+}
+.luz>article:nth-child(8)>nav:nth-child(1)>nav{
+  margin: 20px;
+  width: 280px;
+  height: 160px;
+  background-color: white;
+}
+.luz>article:nth-child(8)>nav:nth-child(1)>nav>nav{
+  margin: 20px;
+  width: 240px;
+  height: 120px;
+  background-color: blue;
+  display: inline-block;
+}
+.luz>article:nth-child(8)>nav:nth-child(1)>nav>nav>section{
+  margin: 20px 0px 20px 20px;
+  width: 52px;
+  height: 80px;
+  background-color: green;
+  float: left;
+}
+.luz>article:nth-child(8)>nav:nth-child(1)>nav>nav>section>div{
+  margin: 25px 10px;
+  width: 30px;
+  height: 30px;
+  background-color: pink;
